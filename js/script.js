@@ -7,6 +7,7 @@ Create the 'showPage' function
 This function will create and insert the elements needed to display a "page" of nine students
 */
  function showPage(list, page){
+   const studentList = document.querySelector('.student-list');
    studentList.innerHTML= '';
 // loop whole list of students 
    for (i=0; i < list.length; i++){
